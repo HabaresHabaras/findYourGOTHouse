@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Book Survey</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <style>
+       
+
+    body {
+      background-image: url("bgImageWinterfell.jpg");
+    }
+
+    .well {
+      background: rgb(235, 204, 138);
+    }
+
+    .btn-primary {
+      margin-left: 250px;
+      margin-right: 35px;
+      width: 300px;
+      height: 50px;
+    }
+
+    #imageHome {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <main role="main" class="container bg-warning">
+    <div class="jumbotron">
+      <img src="gotTitles.jpg" id="imageHome" class="img-fluid" alt="Responsive image"> QUIZ 2.0
+      <div class="container">
+        <div class="col-xs-12 well well-lg">
+
+          <h2>Survey Questions</h2>
+          <hr>
+
+          <h3>
+            <strong>About You</strong>
+          </h3>
+          <h4>What's your name?</h4>
+          <input type="text" id="name" class="form-control" required>
+        </div>
+        <hr>
+        <div class="col-xs-12 well well-lg">
+          <h3>
+            <strong>1</strong>
+          </h3>
+          <h4>What do you want your kingdom to have?</h4>
+          <select class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="4">Lots of Money</option>
+            <option value="6">Lots of Land</option>
+            <option value="3">A Strong Fortress</option>
+            <option value="2">Peace with neighboring countries</option>
+            <option value="1">Lots of Boats</option>
+            <option value="5">A big metropolis</option>
+
+          </select>
+        </div>
+        <div class="col-xs-12 well well-lg">
+
+          <h3>
+            <strong>Question 2</strong>
+          </h3>
+          <h4>What's your special ability?</h4>
+          <select class="chosen-select" id="q2">
+            <option value=""></option>
+            <option value="2">I'm the sharpest diplomat</option>
+            <option value="4">I'm the best strategist</option>
+            <option value="5">I'm supa strong</option>
+            <option value="3">You can't touch me</option>
+            <option value="1">I'm the fastest</option>
+            <option value="6">I'm the toughest</option>
+
+          </select>
+        </div>
+        <div class="col-xs-12 well well-lg">
+
+          <h3>
+            <strong>Question 3</strong>
+          </h3>
+          <h4>At the annual banquet you are ...</h4>
+          <select class="chosen-select" id="q3">
+            <option value=""></option>
+            <option value="5">Drinking and shouting</option>
+            <option value="4">Sitting on the VIP table</option>
+            <option value="3">In the corner of the room</option>
+            <option value="1">Fighting with your family</option>
+            <option value="2">Putting venom in the cups</option>
+            <option value="6">Thanking the townfolk</option>
+
+          </select>
+        </div>
+        <div class="col-xs-12 well well-lg">
+
+          <h3>
+            <strong>Question 4</strong>
+          </h3>
+          <h4>How do you plan to win the war?</h4>
+          <select class="chosen-select" id="q4">
+            <option value=""></option>
+            <option value="2">Make allies, pay them to fight for you</option>
+            <option value="4">Hire soldiers and buy strong equipment</option>
+            <option value="6">With the strength of my people</option>
+            <option value="1">Attacking from the sea</option>
+            <option value="3">Fight from my fortress to have the advantage</option>
+            <option value="5">Being very agressive and lead in battle</option>
+
+          </select>
+        </div>
+        <div class="col-xs-12 well well-lg">
+
+
+          <h3>
+            <strong>Question 5</strong>
+          </h3>
+          <h4>You caught a peasant stealing, what do you do?</h4>
+          <select class="chosen-select" id="q5">
+            <option value=""></option>
+            <option value="1">Ban him from your land</option>
+            <option value="4">Fine him</option>
+            <option value="6">Forgive him</option>
+            <option value="5">Fight him</option>
+            <option value="2">Poison him</option>
+            <option value="3">Let a judge decide</option>
+
+          </select>
+        </div>
+        <div class="col-xs-12 well well-lg">
+
+          <h3>
+            <strong>Question 6</strong>
+          </h3>
+          <h4>White walkers have been seen near the castle...</h4>
+          <select class="chosen-select" id="q6">
+            <option value=""></option>
+            <option value="1">I don't believe in whitewalkers</option>
+            <option value="2">Prepare the armies!</option>
+          </select>
+        </div>
+        <div class="col-xs-12 well well-lg">
+
+          <h3>
+            <strong>Question 7</strong>
+          </h3>
+          <h4>Which weapon would you buy?</h4>
+          <select class="chosen-select" id="q7">
+            <option value=""></option>
+            <option value="1">Curved sword</option>
+            <option value="5">Hammer</option>
+            <option value="6">Heavy sword</option>
+            <option value="3">Bow</option>
+            <option value="2">Light sword</option>
+            <option value="4">All of them</option>
+
+          </select>
+        </div>
+        <div class="col-xs-12 well well-lg">
+
+          <h3>
+            <strong>Question 8</strong>
+          </h3>
+          <h4>With what creature do you identify with the most? </h4>
+          <select class="chosen-select" id="q8">
+            <option value=""></option>
+            <option value="4">lion</option>
+            <option value="3">eagle</option>
+            <option value="6">wolf</option>
+            <option value="5">deer</option>
+            <option value="2">flower</option>
+            <option value="1">Squid</option>
+
+          </select>
+        </div>
+        <div class="col-xs-12 well well-lg">
+
+          <h3>
+            <strong>Question 9</strong>
+          </h3>
+          <h4>You want ...</h4>
+          <select class="chosen-select" id="q9">
+            <option value=""></option>
+            <option value="1">Peace</option>
+            <option value="2">WAR</option>
+          </select>
+
+          <br>
+          <br>
+        </div>
+        <div class="col-xs-12 well well-lg">
+
+          <h3>
+            <strong>Question 10</strong>
+          </h3>
+          <h4>A witch visits your castle and gives you a magical object...</h4>
+          <select class="chosen-select" id="q10">
+            <option value=""></option>
+            <option value="1">Flying sandals</option>
+            <option value="2">sword that cuts thru steel</option>
+            <option value="3">crystal ball that can see it all</option>
+            <option value="4">book of dark spells</option>
+          </select>
+
+          <br>
+          <br>
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            Submit</button>
+          <hr>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <p>
+              <a href="/api/friends">API Friends List</a> |
+              <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a>
+            </p>
+          </div>
+        </footer>
+
+      </div>
+
+    </div>
+  </main>
+  <div id="results-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">
+            <strong>You are a ...</strong>
+          </h2>
+        </div>
+        <div class="modal-body">
+          <h2 id="match-name"></h2>
+          <img id="match-img" src="" alt="book cover">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script type="text/javascript">
+
+        // Capture the form inputs
+        $("#submit").on("click", function (event) {
+          event.preventDefault();
+          // Create an object for the user"s data
+          var userPreference = {
+            scores: [
+              $("#q1").val(),
+             $("#q2").val(),
+              $("#q3").val(),
+              $("#q4").val(),
+              $("#q5").val(),
+              $("#q6").val(),
+              $("#q7").val(),
+              $("#q8").val(),
+              $("#q9").val(),
+              $("#q10").val()
+            ]
+          };
+          console.log(userPreference);
+          // AJAX post the data to the friends API.
+          $.post("/api/houses", userPreference, function (data) {
+            // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+            $("#match-name").text(data.houseName);
+            $("#match-img").attr("src", data.houseShield);
+            $('#results-modal').modal('show')
+          });
+        });
+      </script>
+</body>
+
+</html>
