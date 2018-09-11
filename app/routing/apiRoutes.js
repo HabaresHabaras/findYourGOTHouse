@@ -19,7 +19,7 @@ module.exports = function (app) {
   // ---------------------------------------------------------------------------
 
   app.get("/api/houses", function (req, res) {
-    res.sendFile(path.join(__dirname, "../data/books.js"))
+    res.sendFile(path.join(__dirname, "../data/houses.js"))
   });
   // API POST Requests
   // Below code handles when a user submits a form and thus submits data to the server.
